@@ -19,7 +19,7 @@ npm install react-mathjax2 --save
 import MathJax from 'react-mathjax2'
 
 const ascii = 'U = 1/(R_(si) + sum_(i=1)^n(s_n/lambda_n) + R_(se))'
-const content = `This can be dynamic text (e.g. user-entered) text with ascii math embedded in $$ symbols like $$${ascii}$$`
+const content = `This can be dynamic text (e.g. user-entered) text with ascii math embedded in \$\$ symbols like $$${ascii}$$`
 
 module.exports = () => {
     return (
